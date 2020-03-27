@@ -13,4 +13,4 @@ const ResistanceSchema = new Schema({
 
 const Resistance = mongoose.model('Resistance', schema);
 
-module.exports = Book;
+module.exports = Resistance;
