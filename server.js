@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-const db = require("./models");
+const db = require("./models/resistance");
 
 app.use(logger("dev"));
 
