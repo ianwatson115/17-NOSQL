@@ -11,6 +11,6 @@ const ResistanceSchema = new Schema({
     sets: Number
 });
 
-const Resistance = mongoose.model('Resistance', schema);
+const Resistance = mongoose.model('Resistance', ResistanceSchema);
 
 module.exports = Resistance;

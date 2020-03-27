@@ -9,6 +9,6 @@ const CardioSchema = new Schema({
     distance: Number
 });
 
-const Cardio = mongoose.model('Cardio', schema);
+const Cardio = mongoose.model('Cardio', CardioSchema);
 
 module.exports = Cardio;
